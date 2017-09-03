@@ -25,8 +25,8 @@ You can see this example in a file in `example/index.html`
         <textarea id="textarea" rows="10" cols="30"></textarea>
 
         <!-- Don't forget to include jQuery ! -->
-        <script src="/node_modules/jquery/dist/jquery.js"></script>
-        <script src="node_modules/jquery-textWrapper/dist/jquery-textWrapper.min.js"></script>
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/jquery-text-wrapper/dist/jquery-textWrapper.min.js"></script>
 
         <script type="text/javascript">
             $(document).ready(function() {
