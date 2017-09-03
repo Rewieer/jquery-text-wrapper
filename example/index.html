@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Homepage</title>
+    </head>
+    <body>
+        <div id="button-container">
+
+        </div>
+        <textarea id="textarea" rows="10" cols="30"></textarea>
+
+        <script src="../node_modules/jquery/dist/jquery.js"></script>
+        <script src="../dist/jquery-textWrapper.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+              $.fn.textWrapper.defaults = {
+                definitions: [
+                  {
+                    startTag: "[b]",
+                    endTag: "[/b]",
+                    label: "Bold",
+                    shortcut: "CTRL+B",
+                    attr: {
+                      className: "btn btn-secondary"
+                    }
+                  },
+                  {
+                    startTag: "[i]",
+                    endTag: "[/i]",
+                    label: "Italic",
+                    attr: {
+                      className: "btn btn-secondary"
+                    }
+                  },
+                ]
+              };
+
+              $("#textarea").textWrapper({
+                definitions: [
+                  {
+                    startTag: "[u]",
+                    endTag: "[/u]",
+                    label: "Underline",
+                    attr: {
+                      className: "btn btn-secondary"
+                    }
+                  }
+                ],
+                buttonContainer: $("#button-container")
+              })
+            })
+        </script>
+    </body>
+</html>
