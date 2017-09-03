@@ -1,5 +1,5 @@
 {
-  "name": "jquery-textWrapper",
+  "name": "jquery-text-wrapper",
   "version": "1.0.0",
   "description": " A jQuery plugin to wrap text in a textarea with custom tags ",
   "main": "index.js",

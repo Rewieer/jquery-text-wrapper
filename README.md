@@ -5,7 +5,7 @@ A jQuery plugin to wrap text in a textarea with custom tags
 ![What the plugin does](image.png)
 ## Installation
 
-`npm install jquery-textWrapper`
+`npm install jquery-text-wrapper`
 
 ## Usage
 
