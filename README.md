@@ -24,8 +24,9 @@ You can see this example in a file in `example/index.html`
         </div>
         <textarea id="textarea" rows="10" cols="30"></textarea>
 
-        <script src="../node_modules/jquery/dist/jquery.js"></script>
-        <script src="../dist/jquery-textWrapper.min.js"></script>
+        <!-- Don't forget to include jQuery ! -->
+        <script src="/node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/jquery-textWrapper/dist/jquery-textWrapper.min.js"></script>
 
         <script type="text/javascript">
             $(document).ready(function() {
